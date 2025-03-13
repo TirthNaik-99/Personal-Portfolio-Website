@@ -47,12 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled Full Stack Developer with expertise in Java and JavaScript, 
-        specializing in building scalable, efficient, and user-friendly applications. 
-        With experience in frameworks like Spring Boot, React, and Node.js, I develop robust backend systems and 
-        dynamic frontend interfaces. I'm a quick learner who thrives in collaborative environments, 
-        working closely with clients to create solutions that solve real-world problems. 
-        Let's bring your ideas to life with clean, maintainable, and high-performance code!
+        I'm a skilled Full Stack Developer with expertise in Java and JavaScript, specializing in scalable, efficient, and user-friendly applications. With experience in Spring Boot, React, and Node.js, I build robust backend systems and dynamic frontend interfaces. As technology evolves, I am deeply interested in AI and its transformative impact, exploring how machine learning, automation, and intelligent systems can enhance modern applications. I thrive in collaborative environments, working closely with clients to develop innovative, real-world solutions. Let's bring your ideas to life with clean, maintainable, and AI-driven high-performance code! 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

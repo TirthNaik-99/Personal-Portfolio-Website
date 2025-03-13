@@ -22,14 +22,14 @@ import typescript from "./tech/typescript.png";
 import postman from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/postman.png";
 import langchain from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/langchain.jpeg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import mahindra from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/mahindra.png";
+import prabhupada from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/prabhupada world.jpeg";
 import archi from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/archi farming.jpeg";
-import tesla from "./company/tesla.png";
+import vanillakart from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/vanillakart.jpeg";
 
 import docubot from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/docubot.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cryptovault from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/cryptovault.png";
+import vaccine from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/vaccine.png";
 
 export {
   logo,
@@ -53,12 +53,12 @@ export {
   springboot,
   typescript,
   postman,
-  meta,
-  shopify,
+  mahindra,
+  prabhupada,
   archi,
-  tesla,
+  vanillakart,
   docubot,
-  jobit,
-  tripguide,
+  vaccine,
+  cryptovault,
   langchain,
 };
