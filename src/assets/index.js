@@ -7,29 +7,29 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import aws from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/aws.png";
+import aws from "./tech/aws.png";
 import docker from "./tech/docker.png";
-import sql from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/MySql.png";
+import sql from "./tech/MySql.png";
 import git from "./tech/git.png";
-import python from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/python.jpeg";
+import python from "./tech/python.jpeg";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import java from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/java.png";
-import springboot from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/springboot.png";
+import java from "./tech/java.png";
+import springboot from "./tech/springboot.png";
 import typescript from "./tech/typescript.png";
-import postman from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/postman.png";
-import langchain from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/langchain.jpeg";
+import postman from "./tech/postman.png";
+import langchain from "./tech/langchain.jpeg";
 
-import mahindra from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/mahindra.png";
-import prabhupada from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/prabhupada world.jpeg";
-import archi from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/archi farming.jpeg";
-import vanillakart from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/vanillakart.jpeg";
+import mahindra from "./company/mahindra.png";
+import prabhupada from "./company/prabhupada world.jpeg";
+import archi from "./company/archi farming.jpeg";
+import vanillakart from "./company/vanillakart.jpeg";
 
-import docubot from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/docubot.png";
-import cryptovault from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/cryptovault.png";
-import vaccine from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/vaccine.png";
+import docubot from "./docubot.png";
+import cryptovault from "./cryptovault.png";
+import vaccine from "./vaccine.png";
 
 export {
   logo,
