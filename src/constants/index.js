@@ -16,12 +16,12 @@ import {
   sql,
   docker,
   archi,
-  meta,
-  tesla,
-  shopify,
+  mahindra,
+  vanillakart,
+  prabhupada,
   docubot,
-  jobit,
-  tripguide,
+  cryptovault,
+  vaccine,
 
   langchain,
 } from "../assets";
@@ -125,7 +125,7 @@ const experiences = [
     title: "Software Engineer Intern",
     company_name: "Archi Farming Equipments",
     icon: archi,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "August 2023 - February 2024",
     points: [
       "Contributed to the development of an E-commerce platform using Java (Spring Boot), React, and MySQL",
@@ -137,40 +137,40 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "VanillaKart",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    icon: vanillakart,
+    iconBg: "#e9ecef",
+    date: "June 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and optimized user interfaces using React.js, gaining hands-on experience with React Hooks, Context API, and state management tools.",
+      "Assisted in backend development using Java and Spring Boot, working on RESTful APIs and implementing error handling and monitoring mechanisms.",
+      "Worked with databases using SQL and PostgreSQL, optimizing queries to enhance data retrieval efficiency.",
+      "Collaborated with cross-functional teams, participating in code reviews, debugging issues, and improving system performance.",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Octanet Services Pvt. Ltd.",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Prabhupada world",
+    icon: prabhupada,
+    iconBg: "#f9f7f3",
+    date: "July 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted in developing and optimizing machine learning models using Python, Scikit-learn, and TensorFlow, improving model accuracy and efficiency.",
+      "Implemented and tested predictive models for classification and regression tasks, fine-tuning hyperparameters for better results.",
+      "Worked with databases using SQL and Pandas, extracting and analyzing large datasets for machine learning applications.",
+      "Collaborated with seniors to develop machine learning models to enhance customer experience, including chatbot automation, sentiment analysis, and personalized recommendations.",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Mahindra Rise",
-    icon: meta,
+    company_name: "Mahindra & Mahindra",
+    icon: mahindra,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2021 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered dynamic user interfaces using React and TypeScript, while developing RESTful APIs with Spring Boot, ensuring efficient communication between frontend and backend and optimizing data processing and scalability.",
+      "Implemented JWT-based authentication and role-based access control in both frontend (React/TypeScript) and backend (Java/Spring Boot) to enhance security, ensuring secure user access and data protection across the application.",
+      "Managed MongoDB databases for optimized data handling and query performance, utilizing Git, Docker, Postman, and MERN stack technologies for version control, containerization, and API testing.",
+      "Performed UI testing using Jest and Selenium to validate functionality, improve reliability, and seamless integration",
     ],
   },
 ];
@@ -206,7 +206,7 @@ const projects = [
   {
     name: "Document Bot",
     description:
-      "A chatbot to improve user experience by providing an efficient and intuitive way to access specific details or summaries within a collection of PDFs",
+      "The DocumentBOT is an AI-powered document assistant developed to explore RAG and LLMs, automating text extraction, summarization, and classification. It features secure authentication, search, and retrieval, enhancing workflow efficiency. Built with Python, NLP libraries, OCR (Tesseract), and a database, it showcases expertise in AI-driven automation and document management. The system is designed for researchers, professionals, and organizations to efficiently process and organize large volumes of data.",
     tags: [
       {
         name: "LLM",
@@ -225,9 +225,9 @@ const projects = [
     source_code_link: "https://github.com/TirthNaik-99/DocumentBOT",
   },
   {
-    name: "Job IT",
+    name: "Cryptovault - Cryptocurrency website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "CryptoVault is a Progressive Web Application (PWA) designed to help users track cryptocurrency prices, monitor trends, and receive real-time alerts. Built with React.js, Redux, Node.js, Express.js, and REST API integration, it provides a seamless experience across desktop and mobile devices with offline capabilities, making it a reliable tool for crypto enthusiasts and traders.",
     tags: [
       {
         name: "react",
@@ -242,29 +242,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: cryptovault,
+    source_code_link: "https://github.com/TirthNaik-99/CryptoVault---Crpyocurrency-website",
   },
   {
-    name: "Trip Guide",
+    name: "Vaccine Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Vaccine Management System is a Java Swing-based application with database integration for vaccine distribution, inventory tracking, and appointment scheduling. It features real-time stock management and secure authentication for administrators, healthcare providers, and patients. Built with Java, Java Swing, and a database, it ensures efficient vaccine allocation and streamlined operations.",
     tags: [
       {
-        name: "nextjs",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javaswing",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "dbms",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: vaccine,
+    source_code_link: "https://github.com/TirthNaik-99/Vaccine-Management-System",
   },
 ];
 
