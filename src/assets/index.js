@@ -7,26 +7,27 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+import aws from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/aws.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import sql from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/MySql.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import python from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/python.jpeg";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import java from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/java.png";
+import springboot from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/springboot.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import postman from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/postman.png";
+import langchain from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/tech/langchain.jpeg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import archi from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/company/archi farming.jpeg";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import docubot from "/Users/tirthnaik/Desktop/Personal-Portfolio-Website/src/assets/docubot.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -39,24 +40,25 @@ export {
   github,
   menu,
   close,
-  css,
+  aws,
   docker,
-  figma,
+  sql,
   git,
-  html,
+  python,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
+  java,
+  springboot,
   typescript,
-  threejs,
+  postman,
   meta,
   shopify,
-  starbucks,
+  archi,
   tesla,
-  carrent,
+  docubot,
   jobit,
   tripguide,
+  langchain,
 };

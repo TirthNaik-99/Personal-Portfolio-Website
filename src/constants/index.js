@@ -5,24 +5,25 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
+  python,
+  aws,
   reactjs,
-  redux,
-  tailwind,
+  java,
+  springboot,
   nodejs,
   mongodb,
   git,
-  figma,
+  sql,
   docker,
+  archi,
   meta,
-  starbucks,
   tesla,
   shopify,
-  carrent,
+  docubot,
   jobit,
   tripguide,
-  threejs,
+
+  langchain,
 } from "../assets";
 
 export const navLinks = [
@@ -60,13 +61,14 @@ const services = [
 ];
 
 const technologies = [
+
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
@@ -77,55 +79,59 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Springboot",
+    icon: springboot,
+  },
+  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "MySQL",
+    icon: sql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Langchain",
+    icon: langchain,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "docker",
     icon: docker,
   },
+
+  {
+    name: "git",
+    icon: git,
+  },
+  
+ 
+  
 ];
 
 const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Archi Farming Equipments",
-    icon: starbucks,
+    icon: archi,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2023 - February 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the development of an E-commerce platform using Java (Spring Boot), React, and MySQL",
+      "Integrated third-party APIs into the application, leveraging AWS services to extend functionality and enable seamless interaction ",
+      "Diagnosed and resolved production issues, utilizing monitoring tools like Datadog to ensure system stability, performance, and quick resolution of critical bugs",
+      "Automated CI/CD pipelines using Jenkins and GitHub Actions, integrating backend testing with Selenium",
     ],
   },
   {
@@ -198,25 +204,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Document Bot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A chatbot to improve user experience by providing an efficient and intuitive way to access specific details or summaries within a collection of PDFs",
     tags: [
       {
-        name: "react",
+        name: "LLM",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "RAG",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: docubot,
+    source_code_link: "https://github.com/TirthNaik-99/DocumentBOT",
   },
   {
     name: "Job IT",
