@@ -38,12 +38,13 @@ const Footer = () => {
           </a>
         </div>
         <a
-          href="src/assets/Tirth_Naik Resume.pdf"
-          download
-          className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 transition-colors"
+          href="src/assets/Tirth_Naik_Resume.pdf"
+          target="_blank"  // Opens in a new tab
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 transition-colors"
         >
           <FaFileDownload size={18} />
-          Download Resume
+          View Resume
         </a>
       </div>
       <p className="text-gray-500">

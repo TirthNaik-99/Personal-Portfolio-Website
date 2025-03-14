@@ -184,7 +184,7 @@ const testimonials = [
   {
     testimonial:
       "Tiirth is a highly skilled developer with an exceptional ability to solve complex problems efficiently. His expertise in full-stack development and cloud computing made a huge impact on our projects.",
-    name: "Sara Lee",
+    name: "Harsh Modi",
     designation: "Senior Software Engineer",
     company: "Meta",
     image: meta,
