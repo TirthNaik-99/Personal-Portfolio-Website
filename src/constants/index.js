@@ -22,8 +22,10 @@ import {
   docubot,
   cryptovault,
   vaccine,
-
   langchain,
+  meta,
+  td,
+  takeda,
 } from "../assets";
 
 export const navLinks = [
@@ -123,28 +125,15 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer Intern",
-    company_name: "Archi Farming Equipments",
-    icon: archi,
-    iconBg: "#ffffff",
-    date: "August 2023 - February 2024",
+    company_name: "Mahindra & Mahindra",
+    icon: mahindra,
+    iconBg: "#E6DEDD",
+    date: "May 2021 - April 2022",
     points: [
-      "Contributed to the development of an E-commerce platform using Java (Spring Boot), React, and MySQL",
-      "Integrated third-party APIs into the application, leveraging AWS services to extend functionality and enable seamless interaction ",
-      "Diagnosed and resolved production issues, utilizing monitoring tools like Datadog to ensure system stability, performance, and quick resolution of critical bugs",
-      "Automated CI/CD pipelines using Jenkins and GitHub Actions, integrating backend testing with Selenium",
-    ],
-  },
-  {
-    title: "Software Engineer Intern",
-    company_name: "VanillaKart",
-    icon: vanillakart,
-    iconBg: "#e9ecef",
-    date: "June 2023 - July 2023",
-    points: [
-      "Developed and optimized user interfaces using React.js, gaining hands-on experience with React Hooks, Context API, and state management tools.",
-      "Assisted in backend development using Java and Spring Boot, working on RESTful APIs and implementing error handling and monitoring mechanisms.",
-      "Worked with databases using SQL and PostgreSQL, optimizing queries to enhance data retrieval efficiency.",
-      "Collaborated with cross-functional teams, participating in code reviews, debugging issues, and improving system performance.",
+      "Engineered dynamic user interfaces using React and TypeScript, while developing RESTful APIs with Spring Boot, ensuring efficient communication between frontend and backend and optimizing data processing and scalability.",
+      "Implemented JWT-based authentication and role-based access control in both frontend (React/TypeScript) and backend (Java/Spring Boot) to enhance security, ensuring secure user access and data protection across the application.",
+      "Managed MongoDB databases for optimized data handling and query performance, utilizing Git, Docker, Postman, and MERN stack technologies for version control, containerization, and API testing.",
+      "Performed UI testing using Jest and Selenium to validate functionality, improve reliability, and seamless integration",
     ],
   },
   {
@@ -162,43 +151,59 @@ const experiences = [
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Mahindra & Mahindra",
-    icon: mahindra,
-    iconBg: "#E6DEDD",
-    date: "May 2021 - April 2022",
+    company_name: "VanillaKart",
+    icon: vanillakart,
+    iconBg: "#e9ecef",
+    date: "June 2023 - July 2023",
     points: [
-      "Engineered dynamic user interfaces using React and TypeScript, while developing RESTful APIs with Spring Boot, ensuring efficient communication between frontend and backend and optimizing data processing and scalability.",
-      "Implemented JWT-based authentication and role-based access control in both frontend (React/TypeScript) and backend (Java/Spring Boot) to enhance security, ensuring secure user access and data protection across the application.",
-      "Managed MongoDB databases for optimized data handling and query performance, utilizing Git, Docker, Postman, and MERN stack technologies for version control, containerization, and API testing.",
-      "Performed UI testing using Jest and Selenium to validate functionality, improve reliability, and seamless integration",
+      "Developed and optimized user interfaces using React.js, gaining hands-on experience with React Hooks, Context API, and state management tools.",
+      "Assisted in backend development using Java and Spring Boot, working on RESTful APIs and implementing error handling and monitoring mechanisms.",
+      "Worked with databases using SQL and PostgreSQL, optimizing queries to enhance data retrieval efficiency.",
+      "Collaborated with cross-functional teams, participating in code reviews, debugging issues, and improving system performance.",
     ],
   },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Archi Farming Equipments",
+    icon: archi,
+    iconBg: "#ffffff",
+    date: "August 2023 - February 2024",
+    points: [
+      "Contributed to the development of an E-commerce platform using Java (Spring Boot), React, and MySQL",
+      "Integrated third-party APIs into the application, leveraging AWS services to extend functionality and enable seamless interaction ",
+      "Diagnosed and resolved production issues, utilizing monitoring tools like Datadog to ensure system stability, performance, and quick resolution of critical bugs",
+      "Automated CI/CD pipelines using Jenkins and GitHub Actions, integrating backend testing with Selenium",
+    ],
+  },
+  
+  
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Tiirth is a highly skilled developer with an exceptional ability to solve complex problems efficiently. His expertise in full-stack development and cloud computing made a huge impact on our projects.",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    designation: "Senior Software Engineer",
+    company: "Meta",
+    image: meta,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Tirth has a keen eye for detail and a problem-solving mindset that makes him a valuable asset to any tech team. His ability to understand user needs and translate them into efficient, scalable solutions is truly impressive.",
+    name: "Vidhyut Prajapati",
+    designation: "Senior Product Manager",
+    company: "Takeda",
+    image: takeda,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Tirth is an exceptional engineer with a strong grasp of software development principles. His ability to write clean, efficient code and collaborate seamlessly with teams makes him a pleasure to work with.",
+    name: "Jash Mehta",
+    designation: "VP - Tech Solutions",
+    company: "TD Bank",
+    image: td,
   },
 ];
 

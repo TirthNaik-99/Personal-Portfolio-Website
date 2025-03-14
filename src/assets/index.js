@@ -31,6 +31,10 @@ import docubot from "./docubot.png";
 import cryptovault from "./cryptovault.png";
 import vaccine from "./vaccine.png";
 
+import meta from "./meta.jpeg";
+import td from "./td.jpeg";
+import takeda from "./takeda.jpeg";
+
 export {
   logo,
   backend,
@@ -61,4 +65,7 @@ export {
   vaccine,
   cryptovault,
   langchain,
+  meta,
+  td,
+  takeda,
 };
