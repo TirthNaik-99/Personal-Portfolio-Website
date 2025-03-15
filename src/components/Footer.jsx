@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
         </div>
         <a
-          href="/assets/Tirth_Naik_Resume.pdf" 
+          href="public/Tirth_Naik_Resume.pdf" 
           download="Tirth_Naik_Resume.pdf"
           className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 transition-colors"
         >
@@ -47,7 +47,9 @@ const Footer = () => {
         </a>
       </div>
       <p className="text-gray-500">
-        Copyright © <a href="#" className="text-cyan-400 hover:underline">Tirth Naik</a> - All rights reserved
+      Find me here : <a className="text-cyan-400 hover:underline">naik.ti@northeastern.edu</a> <br/>
+        Copyright © <a href="#" className="text-cyan-400 hover:underline">Tirth Naik</a> - All rights reserved 
+        
       </p>
     </footer>
   );
