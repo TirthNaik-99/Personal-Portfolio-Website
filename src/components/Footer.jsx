@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
         </div>
         <a
-          href="public/Tirth_Naik_Resume.pdf" 
+          href="/Tirth_Naik_Resume.pdf" 
           download="Tirth_Naik_Resume.pdf"
           className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-600 text-white rounded-md hover:bg-cyan-700 transition-colors"
         >
